@@ -118,7 +118,7 @@ int main()
 
 
 	//### 等待用户观察 - 防止自动退出
-	printf("\n\n\nPress Enter to end the program.\n");
+	printf("\n\n\n\e[0mPress Enter to end the program.\n");
 	printf("按下回车键结束程序.\n");
 	getchar();
 
